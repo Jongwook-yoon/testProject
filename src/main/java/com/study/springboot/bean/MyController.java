@@ -18,7 +18,7 @@ import jakarta.servlet.http.HttpServletRequest;
 public class MyController {
 	@RequestMapping("/")
 	public @ResponseBody String root() {
-		return "JSP in Gradle2";
+		return "JSP in Gradle3";
 	}
 	
 	@RequestMapping("/test1") // localhost:8080/test1
